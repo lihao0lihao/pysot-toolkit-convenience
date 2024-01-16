@@ -196,17 +196,20 @@ for video in dataset:
             pred_bboxes.append(0)
 ```
 ### 3. 对于该画图项目的补充说明
-<mark>本项目只需把自己的测试结果放到对应文件目录中即可直接对上述数据集的结果进行测试和绘图，无需下载数据集<mark>
+<mark>本项目只需把自己的测试结果放到对应文件目录中即可直接对上述数据集进行测试和绘图，无需下载数据集<mark>
 #### 1.如何启动？
     如果是编译器启动则无需export PYTHONPATH(因为编译器自动export)
 #### 2.对数据集的优化
       其实单纯地测试结果和绘制OPE图不需要下载全部数据集，只需使用原作者提供的eval_SOT中的json文件即可，我们把其放到了./SOT_eval目录下，所以dataset_dir默认为该路径，无需填写；其次，在video.py中删除了加载图片的代码，因为单纯地测试结果不需要加载图片；
-      所以，最终的效果为使用该项目只需把自己的测试结果放到对应文件目录中即可直接对上述数据集的结果进行测试和绘图，无需下载数据集。
+      所以，最终的效果为使用该项目只需把自己的测试结果放到对应文件目录中即可直接对上述数据集进行测试和绘图，无需下载数据集。
 #### 3.版本设置
       我们的项目基于python=3.8实现，无需下载requirements.txt中的glob(python=3.x版本即自带glob)
 #### 3.debug
-      lasot.py中的分割代码已将，替换为\t，其他可能出现的类似问题同理。
-      
+      lasot.py中的分割代码已将','替换为'\t'，其他可能出现的类似问题同理。
+#### 4.跟踪结果目录
+      在/results目录中放置跟踪结果，以LaSOT为例，在/results/LaSOT中存放结果，如图所示，只需把txt文件名与数据集中的视频名对应上即可。
+![](figs/目录示例.png)![](figs/LaSOT结果示例.png)
+
 #### 4.执行示例
 ```python
 python bin/eval.py --dataset LaSOT --tracker_result_dir ./results/LaSOT --trackers ours --num 1  --show_video_level --vis
