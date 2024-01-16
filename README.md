@@ -1,6 +1,6 @@
 # pysot-toolkit-convenience
 本项目在pysot-toolkit上进行改进，旨在简化测试与绘图过程，感谢原作者的工作！！！
-
+同时也感谢该博主的使用教程[学习PySOT画图](https://blog.csdn.net/weixin_42495721/article/details/110855071)
 
 The purpose of this repo is to provide evaluation API of Current Single Object Tracking Dataset, including
 
