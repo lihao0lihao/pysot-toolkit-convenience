@@ -25,7 +25,7 @@ python setup.py build_ext --inplace
 # if you need to draw graph, you need latex installed on your system
 ```
 
-## Download Dataset
+## ~~Download Dataset~~，不需要下载数据集，但是下面的步骤要执行
 
 Download json files used in our toolkit [baidu pan](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA) or [Google Drive](https://drive.google.com/drive/folders/10cfXjwQQBQeu48XMf2xc_W1LucpistPI)
 
