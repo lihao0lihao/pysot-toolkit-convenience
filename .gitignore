@@ -13,3 +13,4 @@ tracking_results
 tracking_dataset
 SOT_eval/*
 results/*
+!SOT_eval
