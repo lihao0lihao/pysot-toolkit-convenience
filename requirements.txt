@@ -1,0 +1,8 @@
+tqdm
+numpy
+glob # python>3.0自带glob，无需下载
+opencv-python
+colorama
+numba
+pillow
+matplotlib
