@@ -6,3 +6,4 @@ colorama
 numba
 pillow
 matplotlib
+Cython
