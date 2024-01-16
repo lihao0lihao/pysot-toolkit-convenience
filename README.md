@@ -207,9 +207,9 @@ for video in dataset:
       所以，最终的效果为使用该项目只需把自己的测试结果放到对应文件目录中即可直接对上述数据集进行测试和绘图，无需下载数据集。
 #### 3.版本设置
       我们的项目基于python=3.8实现，无需下载requirements.txt中的glob(python=3.x版本即自带glob)
-#### 3.debug
+#### 4.debug
       lasot.py中的分割代码已将','替换为'\t'，其他可能出现的类似问题同理。
-#### 4.跟踪结果目录
+#### 5.跟踪结果目录
       在/results目录中放置跟踪结果，以LaSOT为例，在/results/LaSOT中存放结果，如图所示，只需把txt文件名与数据集中的视频名对应上即可。
 ![](figs/目录示例.png)![](figs/LaSOT结果示例.png)
 
